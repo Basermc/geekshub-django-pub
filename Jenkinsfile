@@ -14,7 +14,7 @@ pipeline {
         disableConcurrentBuilds()
     }
     environment {
-        registry = "Basermc/geekshub-django-pub"
+        registry = "basermc/geekshub-django-pub"
         registryCredential = 'Docker'
         apiServer = "https://192.168.99.100:8443"
         devNamespace = "default"
