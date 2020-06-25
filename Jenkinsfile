@@ -15,7 +15,7 @@ pipeline {
     }
     environment {
         registry = "basermc/geekshub-django-pub"
-        registryCredential = 'Docker'
+        registryCredential = 'docker'
         apiServer = "https://192.168.99.100:8443"
         devNamespace = "default"
         minikubeCredential = 'minikube-auth-token'
